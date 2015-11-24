@@ -13,7 +13,7 @@ Ubuntu 12.04 LTS, 64bit, 1024 MB RAM (you can alter the RAM later in the vagrant
 - Python
   - Python, version 2.7.6
   - Python3, version 3.2.3
-- Java 1.7 (also 1.6 and 1.8 use `sudo update-alternatives --config java` to switch between versions)
+- Java 1.7 (also 1.6 and 1.8: use `sudo update-alternatives --config java` to switch between versions)
 - R, version 3.2.2 “Fire Safety” / RStudio
 - Ruby
   - Ruby 2.2.1p8
@@ -63,7 +63,7 @@ Find Vagrant here: [(https://www.vagrantup.com)]
 
 ### Download `LeipzigDH.box`
 
-Download the `LeipzigDH.box` from here:
+Download the `LeipzigDH.box` from here: [(http://1drv.ms/1NMZP0M)]
 
 ### Setting up `LeipzigDH.box`
 
