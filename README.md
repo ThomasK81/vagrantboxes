@@ -37,23 +37,59 @@ Ubuntu 12.04 LTS, 64bit, 1024 MB RAM (you can alter the RAM later in the vagrant
 - QGIS 2.8
 - Gephi 0.8.1 beta
 
+#### To be added
+
+- Passim
+- OCRopus
+- Kraken
+- Nidaba
+- libtesseract3
+- tesseract-ocr-eng
+- liblept
+- liblept
+- Phaidra
+
 ## How can I get the LeipzigDH.box?
 
-### Download Virtual Box
+You need to install VirtualBox and Vagrant. Then download and initialise `LeipzigDH.box`
+
+### Download VirtualBox
+
+Find VirtualBox here: [(https://www.virtualbox.org)]
 
 ### Download Vagrant
 
+Find Vagrant here: [(https://www.vagrantup.com)]
+
 ### Download `LeipzigDH.box`
+
+Download the `LeipzigDH.box` from here:
 
 ### Setting up `LeipzigDH.box`
 
-1. Create a folder for the LeipzigDH.box
-2. Add the LeipzigDH.box to Vagrant
-3. Initialise the LeipzigDH.box
-4. Start it for the first time:
-5. Halt the LeipzigDH.box
-6. Modify vagrantfile
-7. Start again:
-8. Enjoy all the pre-installed tools and libraries
+1. Create a folder for `LeipzigDH.box` and move `LeipzigDH.box` there and switch to it
+E.g. 
+```
+mkdir ~/somefolder/OPP/vagrant_boxes
+cd ~/somefolder/OPP/vagrant_boxes
+```
+2. Move `LeipzigDH.box` to the new folder
+3. Add `LeipzigDH.box` to Vagrant: `vagrant box add leipzigdh LeipzigDH.box`
+4. Initialise the LeipzigDH.box: `vagrant init leipzigdh`
+5. Start it for the first time:: `vagrant up`
+6. Halt the LeipzigDH.box: `vagrant halt`
+7. Modify vagrantfile so it starts with a GUI. Find and uncomment in the vagrantfile (open with an editor of your choice):
+```
+ config.vm.provider "virtualbox" do |vb|
+  #   # Display the VirtualBox GUI when booting the machine
+  vb.gui = true
+  #
+  #   # Customize the amount of memory on the VM:
+  #   vb.memory = "1024" # Uncomment this and change it to alter the RAM of your VM
+end
+```
+8. Start again: `vagrant up` 
+9. Enjoy all the pre-installed tools and libraries
+10. If you want to delete your VM type `vagrant destroy`
 
 
