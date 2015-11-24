@@ -1,6 +1,6 @@
 # Manual for setting up Vagrant VMs 
 
-Given all the different OS and software versions used by students and workshop participants, we decided to package some tools necessary to run our scripts, libraries, tools in a virtual machine and ship it in a Vagrant box, the `LeipzigDH.box`. This keeps OS specific helpdesking and troubleshooting to a minimum. All one has to do to get `LeipzigDH.box` is to install VirtualBox and Vagrant and initialise the box. Please find more information below.
+Given all the different OS and software versions used by students and workshop participants, we decided to package some tools necessary to run our scripts, libraries, tools in a virtual machine and ship it in a Vagrant box, the `LeipzigDH.box`. This keeps OS specific helpdesking and troubleshooting to a minimum. All one has to do to get `LeipzigDH.box` is to install VirtualBox and Vagrant and initialise the box. Please find more information below. Due to the lack of a secure password / username, please do not save any sensitive information on your virtual machine. `LeipzigDH.box` is a learning environment and not a permament solution for virtualising your research. If you like to build a virtual machine that is similar to `LeipzigDH.box` but safer, we are happy to give some hints and advice.
 
 ## What is in the `LeipzigDH.box`?
 
