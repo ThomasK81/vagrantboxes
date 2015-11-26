@@ -63,7 +63,7 @@ Find Vagrant here: [(https://www.vagrantup.com)]
 
 ### Download `LeipzigDH.box`
 
-Download the `LeipzigDH.box` from here: [(http://1drv.ms/1NMZP0M)]
+Download the `LeipzigDH.box` from here: [(http://cs.uni-l.de/~koentges/DHLeipzig.box)]
 
 ### Setting up `LeipzigDH.box`
 
