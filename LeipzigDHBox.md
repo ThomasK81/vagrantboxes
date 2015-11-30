@@ -1,6 +1,6 @@
 # Manual for setting up DH Leipzig's VM 
 
-Given all the different OS and software versions used by students and workshop participants, we decided to package some tools necessary to run our scripts, libraries, tools in a virtual machine and ship it in a Vagrant box, the `DHLeipzig.box`. This keeps OS specific helpdesking and troubleshooting to a minimum. All one has to do to get `DHLeipzig.box` is to install VirtualBox and Vagrant and initialise the box. Please find more information below. Due to the lack of a secure password / username, please do not save any sensitive information on your virtual machine. `DHLeipzig.box` is a learning environment and not a permament solution for virtualising your research. If you like to build a virtual machine that is similar to `DHLeipzig.box` but safer, we are happy to give some hints and advice.
+Given all the different OS and software versions used by students and workshop participants, we have decided to package some tools necessary to run our scripts, libraries, and tools in a virtual machine and ship it in a Vagrant box, the `DHLeipzig.box`. This keeps OS specific helpdesking and troubleshooting to a minimum. All you have to do to get the `DHLeipzig.box` is to install VirtualBox and Vagrant and initialise the box. Please find more information below. Due to the lack of a secure password / username, please do not save any sensitive information on your virtual machine. `DHLeipzig.box` is a learning environment and not a permament solution for virtualising your research. If you would like to build a virtual machine that is similar to `DHLeipzig.box`, but safer, we are happy to give some hints and advice.
 
 ## What is in the `DHLeipzig.box`?
 
@@ -92,6 +92,6 @@ end
 ```
 8. Start again: `vagrant up` 
 9. Enjoy all the pre-installed tools and libraries
-10. If you want to delete your VM type `vagrant destroy`
+10. If you want to delete your VM, type `vagrant destroy`
 
 
