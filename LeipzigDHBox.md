@@ -37,7 +37,7 @@ Ubuntu 12.04 LTS, 64bit, 1024 MB RAM (you can alter the RAM later in the vagrant
 - QGIS 2.8
 - Gephi 0.8.1 beta
 
-#### To be added
+#### Still to be added (come back later for a more up-to-date VM)
 
 - Passim
 - OCRopus
@@ -48,6 +48,8 @@ Ubuntu 12.04 LTS, 64bit, 1024 MB RAM (you can alter the RAM later in the vagrant
 - liblept
 - liblept
 - Phaidra
+- MySQL
+- Tomcat
 
 ## How can I get the LeipzigDH.box?
 
