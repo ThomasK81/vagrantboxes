@@ -65,7 +65,8 @@ Find Vagrant here: [(https://www.vagrantup.com)]
 
 ### Download `DHLeipzig.box`
 
-Download the `DHLeipzig.box` from here: [(http://cs.uni-l.de/~koentges/DHLeipzig.box)]
+Download the `DHLeipzig.box` from here: [(http://www.informatik.uni-leipzig.de/~koentges/DHLeipzig.box)]
+Or the more up-to-date version `DHLeipzig2.box` from here: [(http://www.informatik.uni-leipzig.de/~koentges/DHLeipzig2.box)]
 
 ### Setting up `DHLeipzig.box`
 
